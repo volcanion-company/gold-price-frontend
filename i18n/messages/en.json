@@ -1,0 +1,272 @@
+{
+  "common": {
+    "appName": "Gold Price",
+    "tagline": "Track gold prices",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "search": "Search",
+    "noData": "No data available",
+    "viewMore": "View more",
+    "viewAll": "View all",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "currency": {
+      "vnd": "VND",
+      "usd": "USD"
+    },
+    "unit": {
+      "tael": "tael",
+      "ounce": "oz"
+    }
+  },
+  "metadata": {
+    "title": "Gold Price - Real-time Gold Price Tracker",
+    "description": "Track gold prices today, view price history for SJC, PNJ, 9999 gold types. Real-time updates, price comparison, trend charts.",
+    "keywords": "gold price, gold price today, SJC gold price, PNJ gold price, 9999 gold price, track gold prices, gold price chart"
+  },
+  "nav": {
+    "home": "Prices",
+    "compare": "Compare",
+    "history": "History",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "account": "Account",
+    "openMenu": "Open menu"
+  },
+  "home": {
+    "title": "Gold Prices Today",
+    "lastUpdate": "Updated at",
+    "total": "Total",
+    "types": "types",
+    "autoUpdate": "Data is updated automatically",
+    "compareChart": "Compare & Charts",
+    "registerHistory": "Register to view history",
+    "legend": "↑↓ Change compared to previous period • Unit: VND/tael",
+    "comparePrice": "Compare prices",
+    "viewHistory": "History"
+  },
+  "prices": {
+    "buy": "Buy",
+    "sell": "Sell",
+    "change": "Change",
+    "changeSell": "Sell change",
+    "spread": "Spread",
+    "source": "Source",
+    "updated": "Updated",
+    "name": "Gold type",
+    "code": "Code",
+    "noData": "Loading data...",
+    "worldGold": "World Gold Price",
+    "worldGoldDesc": "XAUUSD - International gold price",
+    "perOunce": "oz",
+    "domesticEquivalent": "Domestic equivalent",
+    "other": "Other",
+    "live": "Live",
+    "offline": "Offline",
+    "ariaLabel": "{name}: Buy {buy}, Sell {sell}, {trend} {change}",
+    "up": "up",
+    "down": "down",
+    "updatedAt": "Updated at {time}",
+    "topGainers": "Top Gainers",
+    "topLosers": "Top Losers",
+    "noGainers": "No gainers",
+    "noLosers": "No losers",
+    "chart": {
+      "dragToZoom": "Drag on chart to zoom in",
+      "resetZoom": "Reset zoom",
+      "exportCSV": "Export CSV",
+      "noData": "No data available"
+    },
+    "table": {
+      "date": "Date",
+      "avgBuy": "Avg Buy",
+      "avgSell": "Avg Sell",
+      "historyTitle": "{name} Price History",
+      "historyDefault": "Price History"
+    },
+    "period": {
+      "7d": "7 days",
+      "30d": "30 days",
+      "90d": "90 days",
+      "1y": "1 year",
+      "all": "All time",
+      "selectPeriod": "Select period"
+    }
+  },
+  "connection": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "lostConnection": "Lost connection to server",
+    "dataNotLatest": "Displayed data may not be up to date",
+    "lastUpdated": "Last updated",
+    "justNow": "just now",
+    "minutesAgo": "minutes ago",
+    "reconnect": "Retry"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "description": "Login to view gold price history and more features",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "registerNow": "Register now",
+      "success": "Login successful!",
+      "failed": "Login failed",
+      "backToHome": "Back to home"
+    },
+    "register": {
+      "title": "Register",
+      "description": "Create a free account to unlock all features",
+      "name": "Your name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "Minimum 6 characters",
+      "submit": "Register",
+      "loading": "Registering...",
+      "hasAccount": "Already have an account?",
+      "loginNow": "Login",
+      "success": "Registration successful!",
+      "failed": "Registration failed",
+      "backToHome": "Back to home"
+    },
+    "guard": {
+      "checking": "Checking authentication..."
+    }
+  },
+  "history": {
+    "title": "Gold Price History",
+    "description": "View charts and analyze price trends over time",
+    "selectGold": "Select gold type",
+    "period": {
+      "7d": "7 days",
+      "30d": "30 days",
+      "90d": "3 months",
+      "1y": "1 year",
+      "all": "All time"
+    },
+    "stats": {
+      "highest": "Highest",
+      "lowest": "Lowest",
+      "average": "Average",
+      "change": "Change"
+    },
+    "chart": {
+      "title": "Price Chart",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "reset": "Reset",
+      "export": "Export image"
+    },
+    "table": {
+      "title": "History Table",
+      "date": "Date",
+      "buy": "Buy",
+      "sell": "Sell",
+      "change": "Change"
+    },
+    "export": {
+      "csv": "Export CSV",
+      "downloading": "Downloading..."
+    },
+    "loginPrompt": {
+      "title": "Login to view price history",
+      "description": "Access full historical data and in-depth analysis",
+      "feature1": {
+        "title": "Trend charts",
+        "description": "View 7d, 30d, 90d, 1 year prices"
+      },
+      "feature2": {
+        "title": "Detailed analysis",
+        "description": "High, low, average"
+      },
+      "feature3": {
+        "title": "Export data",
+        "description": "Export CSV, PDF"
+      },
+      "registerFree": "Register for free"
+    }
+  },
+  "compare": {
+    "title": "Compare Gold Prices",
+    "description": "Compare prices between different gold types",
+    "selectToCompare": "Select gold types to compare",
+    "selected": "Selected",
+    "clearAll": "Clear all",
+    "sortBy": "Sort by",
+    "sortOrder": {
+      "asc": "Ascending",
+      "desc": "Descending"
+    },
+    "stats": {
+      "highestBuy": "Highest buy",
+      "lowestBuy": "Lowest buy",
+      "highestSell": "Highest sell",
+      "lowestSell": "Lowest sell",
+      "avgBuy": "Avg buy",
+      "avgSell": "Avg sell",
+      "maxSpread": "Max spread",
+      "minSpread": "Min spread"
+    },
+    "noSelection": "Select at least 1 gold type to compare",
+    "searchPlaceholder": "Search gold type..."
+  },
+  "errors": {
+    "title": "An error occurred",
+    "description": "Sorry, something went wrong. Please try again.",
+    "tryAgain": "Try again",
+    "goHome": "Go to home",
+    "details": "Error details"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "toggleTheme": "Toggle theme",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode",
+    "systemMode": "System"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "profile": {
+    "title": "Your Account",
+    "description": "Manage your personal information and account security",
+    "personalInfo": "Profile",
+    "security": "Security",
+    "name": "Display Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailCannotChange": "Email cannot be changed",
+    "memberSince": "Member since",
+    "editProfile": "Edit Profile",
+    "editProfileDescription": "Update your display name",
+    "updateProfile": "Update",
+    "updateSuccess": "Profile updated successfully!",
+    "updateFailed": "Failed to update profile",
+    "changePassword": "Change Password",
+    "changePasswordDescription": "Keep your account secure",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "passwordHint": "Password must be at least 6 characters",
+    "passwordChanged": "Password changed successfully!",
+    "passwordChangeFailed": "Failed to change password",
+    "validation": {
+      "nameRequired": "Please enter your name",
+      "currentPasswordRequired": "Please enter your current password",
+      "newPasswordRequired": "Please enter a new password",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match"
+    }
+  }
+}

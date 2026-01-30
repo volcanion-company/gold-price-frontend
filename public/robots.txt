@@ -1,0 +1,13 @@
+# Robots.txt for Gold Price
+
+User-agent: *
+Allow: /
+
+# Private/authenticated pages
+Disallow: /auth/
+Disallow: /api/
+Disallow: /profile
+Disallow: /history
+
+# Sitemap
+Sitemap: https://goldprice.vn/sitemap.xml

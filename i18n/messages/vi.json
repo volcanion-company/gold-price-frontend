@@ -1,0 +1,272 @@
+{
+  "common": {
+    "appName": "Gold Price",
+    "tagline": "Theo dõi giá vàng",
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra",
+    "retry": "Thử lại",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "close": "Đóng",
+    "search": "Tìm kiếm",
+    "noData": "Không có dữ liệu",
+    "viewMore": "Xem thêm",
+    "viewAll": "Xem tất cả",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "currency": {
+      "vnd": "VNĐ",
+      "usd": "USD"
+    },
+    "unit": {
+      "tael": "lượng",
+      "ounce": "oz"
+    }
+  },
+  "metadata": {
+    "title": "Gold Price - Theo dõi giá vàng real-time",
+    "description": "Theo dõi giá vàng hôm nay, xem lịch sử biến động giá vàng các loại SJC, PNJ, 9999. Cập nhật real-time, so sánh giá, biểu đồ xu hướng.",
+    "keywords": "giá vàng, giá vàng hôm nay, giá vàng SJC, giá vàng PNJ, giá vàng 9999, gold price, theo dõi giá vàng, biểu đồ giá vàng"
+  },
+  "nav": {
+    "home": "Giá vàng",
+    "compare": "So sánh",
+    "history": "Lịch sử",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "account": "Tài khoản",
+    "openMenu": "Mở menu"
+  },
+  "home": {
+    "title": "Giá Vàng Hôm Nay",
+    "lastUpdate": "Cập nhật lúc",
+    "total": "Tổng",
+    "types": "loại",
+    "autoUpdate": "Dữ liệu được cập nhật tự động",
+    "compareChart": "So sánh & Biểu đồ",
+    "registerHistory": "Đăng ký xem lịch sử",
+    "legend": "↑↓ Tăng giảm so sánh với chu kỳ trước đó • Đơn vị: VNĐ/lượng",
+    "comparePrice": "So sánh giá",
+    "viewHistory": "Lịch sử"
+  },
+  "prices": {
+    "buy": "Mua vào",
+    "sell": "Bán ra",
+    "change": "Thay đổi",
+    "changeSell": "Thay đổi bán",
+    "spread": "Chênh lệch",
+    "source": "Nguồn",
+    "updated": "Cập nhật",
+    "name": "Loại vàng",
+    "code": "Mã",
+    "noData": "Đang tải dữ liệu...",
+    "worldGold": "Giá vàng thế giới",
+    "worldGoldDesc": "XAUUSD - Giá vàng quốc tế",
+    "perOunce": "oz",
+    "domesticEquivalent": "Tương đương nội địa",
+    "other": "Khác",
+    "live": "Trực tiếp",
+    "offline": "Ngoại tuyến",
+    "ariaLabel": "{name}: Mua {buy}, Bán {sell}, {trend} {change}",
+    "up": "tăng",
+    "down": "giảm",
+    "updatedAt": "Cập nhật lúc {time}",
+    "topGainers": "Tăng mạnh nhất",
+    "topLosers": "Giảm mạnh nhất",
+    "noGainers": "Không có mã tăng giá",
+    "noLosers": "Không có mã giảm giá",
+    "chart": {
+      "dragToZoom": "Kéo chuột trên biểu đồ để phóng to vùng",
+      "resetZoom": "Đặt lại zoom",
+      "exportCSV": "Xuất CSV",
+      "noData": "Không có dữ liệu"
+    },
+    "table": {
+      "date": "Ngày",
+      "avgBuy": "TB Mua",
+      "avgSell": "TB Bán",
+      "historyTitle": "Lịch sử giá {name}",
+      "historyDefault": "Lịch sử giá"
+    },
+    "period": {
+      "7d": "7 ngày",
+      "30d": "30 ngày",
+      "90d": "90 ngày",
+      "1y": "1 năm",
+      "all": "Tất cả",
+      "selectPeriod": "Chọn thời gian"
+    }
+  },
+  "connection": {
+    "connected": "Đã kết nối",
+    "disconnected": "Mất kết nối",
+    "lostConnection": "Mất kết nối với server",
+    "dataNotLatest": "Dữ liệu hiển thị có thể không phải mới nhất",
+    "lastUpdated": "Cập nhật lần cuối",
+    "justNow": "vừa xong",
+    "minutesAgo": "phút trước",
+    "reconnect": "Thử lại"
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập",
+      "description": "Đăng nhập để xem lịch sử giá vàng và nhiều tính năng khác",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "submit": "Đăng nhập",
+      "loading": "Đang đăng nhập...",
+      "noAccount": "Chưa có tài khoản?",
+      "registerNow": "Đăng ký ngay",
+      "success": "Đăng nhập thành công!",
+      "failed": "Đăng nhập thất bại",
+      "backToHome": "Về trang chủ"
+    },
+    "register": {
+      "title": "Đăng ký",
+      "description": "Tạo tài khoản miễn phí để mở khóa tất cả tính năng",
+      "name": "Tên của bạn",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "passwordHint": "Tối thiểu 6 ký tự",
+      "submit": "Đăng ký",
+      "loading": "Đang đăng ký...",
+      "hasAccount": "Đã có tài khoản?",
+      "loginNow": "Đăng nhập",
+      "success": "Đăng ký thành công!",
+      "failed": "Đăng ký thất bại",
+      "backToHome": "Về trang chủ"
+    },
+    "guard": {
+      "checking": "Đang kiểm tra xác thực..."
+    }
+  },
+  "history": {
+    "title": "Lịch sử giá vàng",
+    "description": "Xem biểu đồ và phân tích xu hướng giá theo thời gian",
+    "selectGold": "Chọn loại vàng",
+    "period": {
+      "7d": "7 ngày",
+      "30d": "30 ngày",
+      "90d": "3 tháng",
+      "1y": "1 năm",
+      "all": "Tất cả"
+    },
+    "stats": {
+      "highest": "Cao nhất",
+      "lowest": "Thấp nhất",
+      "average": "Trung bình",
+      "change": "Thay đổi"
+    },
+    "chart": {
+      "title": "Biểu đồ giá",
+      "zoomIn": "Phóng to",
+      "zoomOut": "Thu nhỏ",
+      "reset": "Đặt lại",
+      "export": "Xuất ảnh"
+    },
+    "table": {
+      "title": "Bảng lịch sử",
+      "date": "Ngày",
+      "buy": "Mua vào",
+      "sell": "Bán ra",
+      "change": "Thay đổi"
+    },
+    "export": {
+      "csv": "Xuất CSV",
+      "downloading": "Đang tải..."
+    },
+    "loginPrompt": {
+      "title": "Đăng nhập để xem lịch sử giá",
+      "description": "Truy cập đầy đủ dữ liệu lịch sử và phân tích chuyên sâu",
+      "feature1": {
+        "title": "Biểu đồ xu hướng",
+        "description": "Xem giá 7d, 30d, 90d, 1 năm"
+      },
+      "feature2": {
+        "title": "Phân tích chi tiết",
+        "description": "Cao, thấp, trung bình"
+      },
+      "feature3": {
+        "title": "Xuất dữ liệu",
+        "description": "Export CSV, PDF"
+      },
+      "registerFree": "Đăng ký miễn phí"
+    }
+  },
+  "compare": {
+    "title": "So sánh giá vàng",
+    "description": "So sánh giá giữa các loại vàng khác nhau",
+    "selectToCompare": "Chọn loại vàng để so sánh",
+    "selected": "Đã chọn",
+    "clearAll": "Bỏ chọn tất cả",
+    "sortBy": "Sắp xếp theo",
+    "sortOrder": {
+      "asc": "Tăng dần",
+      "desc": "Giảm dần"
+    },
+    "stats": {
+      "highestBuy": "Mua cao nhất",
+      "lowestBuy": "Mua thấp nhất",
+      "highestSell": "Bán cao nhất",
+      "lowestSell": "Bán thấp nhất",
+      "avgBuy": "TB mua",
+      "avgSell": "TB bán",
+      "maxSpread": "CL max",
+      "minSpread": "CL min"
+    },
+    "noSelection": "Chọn ít nhất 1 loại vàng để so sánh",
+    "searchPlaceholder": "Tìm kiếm loại vàng..."
+  },
+  "errors": {
+    "title": "Đã xảy ra lỗi",
+    "description": "Rất tiếc, đã có sự cố xảy ra. Vui lòng thử lại.",
+    "tryAgain": "Thử lại",
+    "goHome": "Về trang chủ",
+    "details": "Chi tiết lỗi"
+  },
+  "a11y": {
+    "skipToContent": "Chuyển đến nội dung chính",
+    "toggleTheme": "Chuyển đổi giao diện",
+    "lightMode": "Giao diện sáng",
+    "darkMode": "Giao diện tối",
+    "systemMode": "Theo hệ thống"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "profile": {
+    "title": "Tài khoản của bạn",
+    "description": "Quản lý thông tin cá nhân và bảo mật tài khoản",
+    "personalInfo": "Thông tin",
+    "security": "Bảo mật",
+    "name": "Tên hiển thị",
+    "namePlaceholder": "Nhập tên của bạn",
+    "email": "Email",
+    "emailCannotChange": "Email không thể thay đổi",
+    "memberSince": "Thành viên từ",
+    "editProfile": "Chỉnh sửa thông tin",
+    "editProfileDescription": "Cập nhật tên hiển thị của bạn",
+    "updateProfile": "Cập nhật",
+    "updateSuccess": "Cập nhật thông tin thành công!",
+    "updateFailed": "Cập nhật thất bại",
+    "changePassword": "Đổi mật khẩu",
+    "changePasswordDescription": "Đảm bảo tài khoản của bạn được bảo mật",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "passwordHint": "Mật khẩu phải có ít nhất 6 ký tự",
+    "passwordChanged": "Đổi mật khẩu thành công!",
+    "passwordChangeFailed": "Đổi mật khẩu thất bại",
+    "validation": {
+      "nameRequired": "Vui lòng nhập tên",
+      "currentPasswordRequired": "Vui lòng nhập mật khẩu hiện tại",
+      "newPasswordRequired": "Vui lòng nhập mật khẩu mới",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+      "passwordMismatch": "Mật khẩu xác nhận không khớp"
+    }
+  }
+}
